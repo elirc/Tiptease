@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { font-family: 'Poppins', sans-serif;
+
+}
+
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: ;
+}
+nav {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    background-color: lightblue;
+    width: 100%;
+    Margin: 1px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    flex: 1 1 0;
+}
+.waitress{width: 200px;
+    height: 200px;
+
+}
+.service{
+    text-align: center;
+}
+.tip{
+    width: 200px;
+}
+.H1{
+    text-align: center;
+}
+.contacts {background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+color: white; }
